@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5404234385817111061}
   - component: {fileID: 7152234287633947106}
   - component: {fileID: 8414396723176070720}
+  - component: {fileID: 1335536774769308222}
   m_Layer: 0
   m_Name: Props_12
   m_TagString: Untagged
@@ -29,9 +30,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458060266619460416}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: -0.13}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -130,14 +131,14 @@ HingeJoint:
   serializedVersion: 3
   m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0.5, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Anchor: {x: 50, y: 0, z: 0}
+  m_Axis: {x: 50, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
-  m_UseSpring: 0
+  m_UseSpring: 1
   m_Spring:
-    spring: 0
-    damper: 0
+    spring: 10000
+    damper: 1000
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -178,5 +179,26 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.0028117, y: 0.25847858, z: 5.370822}
-  m_Center: {x: -0.024892807, y: 0.0021767616, z: 0}
+  m_Size: {x: 2.0028117, y: 0.25847858, z: 2.0037727}
+  m_Center: {x: -0.024892807, y: 0.0021767616, z: 1.6835246}
+--- !u!65 &1335536774769308222
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458060266619460416}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.002759, y: 0.23618913, z: 1.9993601}
+  m_Center: {x: -0.019705296, y: 0.0037487745, z: -1.6857309}
