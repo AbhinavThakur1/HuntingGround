@@ -7946,7 +7946,10 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: -564700060665500780, guid: 32812f864ffc68f45aa97b19014b7867, type: 3}
 <<<<<<< Updated upstream:Assets/Scenes/Game Level.unity
+<<<<<<< Updated upstream:Assets/Scenes/Game Level.unity
 =======
+=======
+>>>>>>> Stashed changes:Assets/Scenes/Demo Level.unity
 --- !u!1001 &1830126754
 PrefabInstance:
   m_ObjectHideFlags: 0
